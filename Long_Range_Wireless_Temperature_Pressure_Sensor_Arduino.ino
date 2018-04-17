@@ -1,6 +1,6 @@
-///this code is written and tested for ncd.io IoT Long Range Wireless Proximity Light with arduino due
-///sensor data structure can be found here https://ncd.io/long-range-iot-wireless-proximity-sensor-product-manual/
-/// sensor can be found here https://store.ncd.io/product/long-range-iot-wireless-proximity-light-sensor/
+///this code is written and tested for ncd.io IoT Long Range Wireless Pressure and Temperature Sensor with arduino due
+///sensor data structure can be found here https://ncd.io/long-range-iot-wireless-temperature-barometric-pressure-sensor-product-manual/
+/// sensor can be found here https://store.ncd.io/product/long-range-iot-wireless-temperature-barometric-pressure-sensor/
 
   uint8_t data[36];
   int k = 10;
@@ -9,7 +9,7 @@ void setup()
 {
   Serial1.begin(9600);
   Serial.begin(9600);
-  Serial.println("ncd.io IoT Arduino Wireless Proximity Light Sensor");
+  Serial.println("ncd.io IoT Arduino Wireless Pressure and Temperature Sensor");
 }
 
 void loop()
