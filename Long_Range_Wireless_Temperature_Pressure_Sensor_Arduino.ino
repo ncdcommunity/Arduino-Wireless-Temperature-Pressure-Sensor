@@ -22,7 +22,7 @@ void loop()
    if(data[0]==0x7E)
     {
     while (!Serial1.available());
-    for ( i = 1; i< 29; i++)
+    for ( i = 1; i< 36; i++)
       {
       data[i] = Serial1.read();
       delay(1);
@@ -69,7 +69,7 @@ void loop()
       }
 else
 {
-      for ( i = 0; i< 29; i++)
+      for ( i = 0; i< 36; i++)
     {
       Serial.print(data[i]);
       Serial.print(" , ");
